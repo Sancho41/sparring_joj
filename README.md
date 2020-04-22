@@ -1,2 +1,7 @@
-# sparring_joj
-A Discord BOT
+# B
+# A
+# N
+---
+# R
+# O
+# Q
