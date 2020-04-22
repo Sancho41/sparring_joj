@@ -4,7 +4,6 @@ import base64
 def get_git_content(url):
 
   url = url.split('/')
-  print(url)
   user = url[3]
   repo = url[4]
   path = "/".join(url[7:])
@@ -25,6 +24,5 @@ def get_git_content(url):
 
 
 if __name__ == '__main__':
-  # , "https://api.github.com/repos/Sancho41/academic/contents/2019_2/maratona/classroom/lista01/h.py"
   a, c = get_git_content("https://github.com/Sancho41/academic/blob/master/2019_2/maratona/classroom/lista01/a.py")
   print(a)
