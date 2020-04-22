@@ -1,5 +1,6 @@
 import discord
 from get_git_content import get_git_content
+import os
 
 from discord.ext import commands
 
@@ -18,4 +19,4 @@ async def git_get(ctx, arg):
   except:
     await ctx.send("Código excede limite do discord 😢")
 
-bot.run('NTY2NjM3NjEyNzU3MTU1ODQw.XqCf-Q.ubi67iNJkn4yYtEJvu3rS95Hd9I')
+bot.run(os.environ['token'])
